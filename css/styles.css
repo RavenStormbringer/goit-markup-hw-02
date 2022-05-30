@@ -5,6 +5,10 @@
     --text-color: #757575;
 }
 
+li {
+    list-style-type: none;
+}
+
 body {
     font-family: 'Roboto';
 }
@@ -38,10 +42,20 @@ body {
 }
 
 .header-logoo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.29;
+    letter-spacing: 0.03em;
     color: var(--pre-main-color);
 }
 
 .header-logooo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.29;
+    letter-spacing: 0.03em;
     color: var(--main-color);
 }
 
@@ -50,7 +64,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--text-color);
 }
 
 .header-phone {
@@ -151,6 +165,15 @@ body {
     letter-spacing: 0.03em;
     font-style: normal;
     color: var(--main-color);
+}
+
+.footer-mail,
+.footer-phone {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6); 
 }
 
 .pre-main-button {
